@@ -4,7 +4,7 @@ var path = require('path');
 var cookieParser = require('cookie-parser');
 var logger = require('morgan');
 var mongo=require('./connection');
-import cors from "cors";
+var cors = require('cors');
 
 
 var indexRouter = require('./routes/index');
